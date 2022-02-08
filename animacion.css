@@ -3,28 +3,29 @@
     padding:0;
     box-sizing: border-box;
 }
+
 body{
-    
+    overflow: hidden;
     animation-name: body;
     animation-duration: 3s;
     animation-fill-mode: both;
 }
 
 h1{
-    
+    overflow: hidden;
 color: aquamarine;
     animation-name: titulomov;
     animation-duration: 3s;
     animation-fill-mode: both;
 }
 
-.imagena{
+.imagena{overflow: hidden;
     animation-name: animagen;
     animation-duration: 3s;
     animation-fill-mode: both;
     }
 
-.circle{
+.circle{overflow: hidden;
     color: aqua;
     display: flex;
     align-items: center;
@@ -45,7 +46,7 @@ color: aquamarine;
     animation-timing-function: ease-in-out;
     
 }
-.jaja{
+.jaja{overflow: hidden;
     color: aquamarine;
     background: red;
     width: 150px;
@@ -54,7 +55,7 @@ color: aquamarine;
     animation-duration: 3s;
     
 }
-.circlo{
+.circlo{overflow: hidden;
     color: aqua;
     display: flex;
     align-items: center;
@@ -76,11 +77,11 @@ color: aquamarine;
     
 }
 
-.circle:hover{
+.circle:hover{overflow: hidden;
     animation-play-state: paused;
 }
 
-.texto {
+.texto {overflow: hidden;
     position: absolute;
     top: 50%;
     left: 50%;
