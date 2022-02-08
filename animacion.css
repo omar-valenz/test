@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    
+    animation-name: body;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+h1{
+    
+
+    animation-name: titulomov;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+.imagena{
+    animation-name: animagen;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    }
+
+.circle{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    /*background: goldenrod;*/
+    border-radius: 50%;
+
+    /*animatio*/
+    animation-name:  tamaño;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: 1;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    
+}
+.jaja{
+    background: red;
+    width: 150px;
+    height: 150px;
+    animation-name: tamaña;
+    animation-duration: 3s;
+    
+}
+.circlo{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    /*background: goldenrod;*/
+    border-radius: 50%;
+
+    /*animatio*/
+    animation-name:  tamaña;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: 1;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    
+}
+
+.circle:hover{
+    animation-play-state: paused;
+}
+
+.texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -30%;
+ }
+
+@keyframes cambiarcolor{
+    0%{background-color: blueviolet;
+    }
+    100%{background-color: blue;
+    }
+}
+@keyframes tamaño {
+   
+
+    0%{transform: scale(1) translateX(0);background-color: goldenrod; }
+    25%{transform: scale(3) translateX(100%);background-color: blueviolet; }
+    50%{transform: scale(1) translateX(0);background-color: goldenrod; }
+    75%{transform:  translateY(50%)}
+    100%{transform:  translateX(-20%)}
+
+
+}
+@keyframes tamaña {
+   
+
+    0%{transform: scale(1) translateX(0);background-color: rgb(114, 113, 110); }
+    25%{transform: scale(3) translateX(50%);background-color: rgb(193, 193, 194); }
+    50%{transform: scale(1) translateX(0);background-color: rgb(59, 59, 59); }
+    75%{transform:  translateY(-50%)}
+    100%{transform:  translateX(20%)}
+
+
+}
+@keyframes animagen {
+
+    0%{transform: scale(1) translateY(0)}
+    100%{transform: scale(1) translateY(-200%) translateX(80%)}
+
+}
+
+@keyframes titulomov {
+
+    0%{transform: scale(1) translateY(0)}
+    100%{transform: scale(1.5) translateY(1000%) translateX(20%)}
+
+} 
+@keyframes dody {
+
+    0%{ background-color: rgb(49, 56, 155);}
+    100%{ background-color: rgb(59, 59, 59);}
+
+} 
