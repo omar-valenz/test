@@ -1,7 +1,49 @@
 *{margin: 0;
-padding: 0;}
+padding: 0;
+box-sizing: border-box;}
 
 body{
+    font-family:'poppins';
+    color: black;
     background: rgb(56, 179, 216);
-    text-align: center;
+    padding-bottom: 1000em;
+    
+}
+p{opacity: 0.7;
+    margin: 2em 0;
+}
+
+a{
+    border: 2px solid rgba(0, 0, 0, 0.432);
+    padding: 0.6em 3.5em;
+  
+text-decoration: none;
+    border-radius: 50px;
+    font-size: 0.9em;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 3em;
+}
+
+.banner{
+    width: 100%;
+    background: yellow;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background-image: url("images/micro.jpg");
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.banner_description{
+    width: 90%;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+    
+
 }
