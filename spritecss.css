@@ -9,7 +9,15 @@ body{
     left: 50%;
   transform: translate(-50% -50%);
     background: url("images/sprite.png");
-    width: calc(1536px / 6)px;
+    width: calc(1536px / 6);
     height: 256px;
-  
+  animation: animate 0.70s steps(6) infinite;
+}
+@keyframes animate{ 
+    from{
+        background-position: 0;
+    }
+    to{
+        background-position: -1536px;
+    }
 }
