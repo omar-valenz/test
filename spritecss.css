@@ -1,3 +1,8 @@
+
+
 #sprite{
-    background: url(images/mario.png) no-repeat;
+    background: url("images/sprite.png") no-repeat;
+    width: 32px;
+    height: 32px;
+    background-position: 20px 0;
 }
