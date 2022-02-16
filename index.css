@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: rgb(148, 148, 148);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
