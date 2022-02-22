@@ -5,7 +5,7 @@
 }
 
 html {
-    height: 1000px;
+    height: 3000px;
 }
 
 body
@@ -37,6 +37,8 @@ body
 .main {
     grid-area: main;
     background: rgb(73, 40, 190);
+    background: fixed  url("images/perrillo.jpg") ;
+   
 }
 .footer {
     grid-area: footer;
