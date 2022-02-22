@@ -37,7 +37,7 @@ h1{
 .banner{
     width: 100%;
    
-    height: 500px;
+    height: 600px;
     display: flex;
     align-items: center;
     background: fixed  url("images/micro.jpg") ;
@@ -72,7 +72,7 @@ h1{
 .banner2{
     width: 100%;
     background: yellow;
-    height: 500px;
+    height: 600px;
     display: flex;
     align-items: center;
     background: fixed  url("https://img.freepik.com/vector-gratis/movimiento-ligero-fondo-pantalla-estilo-abstracto_23-2148343964.jpg?w=1380") ;

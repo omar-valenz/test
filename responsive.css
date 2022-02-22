@@ -5,7 +5,7 @@
 }
 
 html {
-    height: 100%;
+    height: 1000px;
 }
 
 body
@@ -36,31 +36,34 @@ body
 }
 .main {
     grid-area: main;
-    background: rgb(190, 180, 40);
+    background: rgb(73, 40, 190);
 }
 .footer {
     grid-area: footer;
     background: rgb(81, 150, 121);
 }
+.imagen{
+    
+}
 .grid{
-
+    font-size: 1.5rem;
 display: grid;
 gap: 10px;
-grid-template-areas: 
-"header"
-"nav"
-"aside"
-"main"
-"footer";
+grid-template: 
+"header" 120px
+"nav"90px
+"aside" 60px
+"main" auto
+"footer"70px;
 }
 @media (min-width: 600px) {
     .grid {
 
-
+        font-size: 1.5rem;
 grid-template: 
 "header header" 100px
-"nav    nav" 50px
-"aside  main" auto
+"nav    nav"    50px
+"aside  main"   auto
 "footer footer" 100px /
  200px auto;
         
@@ -70,7 +73,8 @@ grid-template:
 @media (min-width: 900px) {
     .grid {
 
-
+        font-size: 2rem;
+        
 grid-template: 
 "header header header" 100px
 "nav    main   aside"  auto
