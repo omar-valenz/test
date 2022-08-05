@@ -26,10 +26,7 @@ body
     grid-area: header;
     background: rgb(0, 93, 136);
 }
-.nav {
-    grid-area: nav;
-    background: rgb(131, 0, 136);
-}
+
 .aside {
     grid-area: aside;
     background: rgb(252, 100, 100);
