@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 3000px;
+}
+
+body
+{
+    color: aliceblue;
+ background: rgb(38, 122, 115);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 1.2rem;
+ min-height: 100%;
+}
+
+.grid > * {
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.096)
+}
+.header {
+    grid-area: header;
+    background: rgb(0, 93, 136);
+}
+
+.aside {
+    grid-area: aside;
+    background: rgb(252, 100, 100);
+}
+.main {
+    grid-area: main;
+    background: rgb(73, 40, 190);
+    background: fixed  url("images/perrillo.jpg") ;
+   
+}
+.footer {
+    grid-area: footer;
+    background: rgb(81, 150, 121);
+}
+.imagen{
+    
+}
+.grid{
+    font-size: 1.5rem;
+display: grid;
+gap: 10px;
+grid-template: 
+"header" 120px
+"nav"90px
+"aside" 60px
+"main" auto
+"footer"70px;
+}
+@media (min-width: 600px) {
+    .grid {
+
+        font-size: 1.5rem;
+grid-template: 
+"header header" 100px
+"nav    nav"    50px
+"aside  main"   auto
+"footer footer" 100px /
+ 200px auto;
+        
+    }
+}
+
+@media (min-width: 900px) {
+    .grid {
+
+        font-size: 2rem;
+        
+grid-template: 
+"header header header" 100px
+"nav    main   aside"  auto
+"footer footer footer" 100px /
+ 200px auto;
+        
+    }
+}
