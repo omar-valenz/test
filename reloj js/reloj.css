@@ -15,7 +15,9 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #333;
+    
+    background: center url("https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/278450855_3188233774748772_2522812094317164180_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=e3f864&_nc_ohc=uuWY6ufim_MAX_TIE8d&_nc_ht=scontent-qro1-2.xx&oh=00_AT8i5zaiHzRokziZRSS9GoYByji7Dvsxm5d0lX14rKC6pA&oe=632D2C75") ;
+    
 }
 .countdown{
     display: flex;
@@ -50,9 +52,9 @@ span{
     display: block;
     padding: 10px;
     text-align: center;
-    color: #74ffe7;
+    color: #000000;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 700;
 }
 .final-sms{
     position: absolute;
