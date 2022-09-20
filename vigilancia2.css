@@ -94,7 +94,9 @@ grid-template:
     justify-content: center;
     flex-direction: column;
     
-    background: -50px 1050px url("https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-6/277311727_3173528862885930_3298713142319463557_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=dxXGIGRLPr4AX-URLag&_nc_ht=scontent-qro1-2.xx&oh=00_AT9wzIelnANuAIVqpDRZbOm9igqzVMU0lfooVbnM1zD1Ww&oe=632DF4B9") ;
+    background:  url("https://w0.peakpx.com/wallpaper/651/1019/HD-wallpaper-just-relax-beautiful-view-sun-beautiful-clouds-sea-beach-splendor-chairs-beauty-amazing-romantic-view-romance-holiday-ocean-relax-colors-sky-beaches-colorful-sky-peaceful-summer-thumbnail.jpg") ;
+   
+
 }
 .countdown{
     display: flex;
@@ -109,7 +111,7 @@ grid-template:
 }
 h1{
     text-align: center;
-    color: #fff;
+    color: rgb(230, 229, 241);
     font-size: 40px;
     padding: 30px 10px;
 }
@@ -123,15 +125,15 @@ p{
     color: #fff;
     font-size: 2rem;
     font-weight: bold;
-    background-color: #ff748c;
+    background-color: #04a5b1;
 }
 span{
     display: block;
     padding: 10px;
     text-align: center;
-    color: #000000;
+    color: #ffffff;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 100;
 }
 .final-sms{
     position: absolute;
@@ -147,7 +149,7 @@ span{
 }
 .final-sms h2{
     text-align: center;
-    font-size: 100px;
-    color: #fff;
+    font-size: 40px;
+    color: rgb(253, 5, 5);
 
 }
